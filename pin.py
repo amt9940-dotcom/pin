@@ -43,8 +43,9 @@ from dataclasses import dataclass
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 
 # ──────────────────────────────────────────────────────────────────────────────
-# EDIT THIS to force exactly how many pins are tested; set to None to use CLI.
-NUMBER_OF_PINS: Optional[int] = 5
+# Keep this None so the default CLI evaluates the full assignment range (3–8 pins).
+# Set to an int to hard-pin a specific K at runtime if absolutely needed.
+NUMBER_OF_PINS: Optional[int] = None
 # ──────────────────────────────────────────────────────────────────────────────
 
 Point = Tuple[float, float]
