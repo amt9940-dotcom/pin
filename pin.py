@@ -44,7 +44,7 @@ from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 
 # ──────────────────────────────────────────────────────────────────────────────
 # EDIT THIS to force exactly how many pins are tested; set to None to use CLI.
-NUMBER_OF_PINS: Optional[int] = 5
+NUMBER_OF_PINS: Optional[int] = None
 # ──────────────────────────────────────────────────────────────────────────────
 
 Point = Tuple[float, float]
